@@ -1,0 +1,32 @@
+/* remove default numbering in ordered list */
+
+.boxes{
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+#redbox{
+        width: 300px;
+        border: 2px solid black;
+        padding: 50px;
+        margin: 20px;
+      
+}
+#bluebox{
+    width: 300px;
+    border: 2px solid black;
+    padding: 50px;
+    margin: 20px;
+}
+#greenbox{
+    width: 300px;
+    border: 2px solid black;
+    padding: 50px;
+    margin: 20px;
+}
+#yellowbox{
+    width: 300px;
+    border: 2px solid black;
+    padding: 50px;
+    margin: 20px;
+}
