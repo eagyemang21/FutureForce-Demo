@@ -1,21 +1,24 @@
 <!DOCTYPE html>
-<link rel="stylesheet" href="style.css">
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Elijah's FutureForce Project</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h1>Welcome to My Game</h1>
+    <div id="notification-container">  <p id="notification"></p>
+    </div>
     <p>Repeat the pattern all 8 times to win the game!</p>
-    <button onclick="gameStart()">Start</button>
+    <button id="startButton">Start</button>
+
     <ol class="boxes">
-        <li id="redbox">Red</li>
-        <li id="purplebox">Purple</li>
-        <li id="greenbox">Green</li>
-        <li id="yellowbox">Yellow</li>
+        <li id="redbox"></li>
+        <li id="purplebox"></li>
+        <li id="greenbox"></li>
+        <li id="yellowbox"></li>
     </ol>
-    
+    <script src="script.js"></script>
 </body>
 </html>
